@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A98FA02445EF5F00C1DD2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A98F9F2445EF5F00C1DD2D /* AppDelegate.swift */; };
+		18A98FA22445EF5F00C1DD2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A98FA12445EF5F00C1DD2D /* SceneDelegate.swift */; };
+		18A98FA42445EF5F00C1DD2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A98FA32445EF5F00C1DD2D /* ViewController.swift */; };
+		18A98FA72445EF5F00C1DD2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A98FA52445EF5F00C1DD2D /* Main.storyboard */; };
+		18A98FA92445EF6000C1DD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A98FA82445EF6000C1DD2D /* Assets.xcassets */; };
+		18A98FAC2445EF6000C1DD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A98FAA2445EF6000C1DD2D /* LaunchScreen.storyboard */; };
+		18A98FB72445EF6000C1DD2D /* KMoyaRxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A98FB62445EF6000C1DD2D /* KMoyaRxDemoTests.swift */; };
+		18A98FC22445EF6100C1DD2D /* KMoyaRxDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A98FC12445EF6100C1DD2D /* KMoyaRxDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A98FB32445EF6000C1DD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A98F942445EF5F00C1DD2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A98F9B2445EF5F00C1DD2D;
+			remoteInfo = KMoyaRxDemo;
+		};
+		18A98FBE2445EF6100C1DD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A98F942445EF5F00C1DD2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A98F9B2445EF5F00C1DD2D;
+			remoteInfo = KMoyaRxDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A98F9C2445EF5F00C1DD2D /* KMoyaRxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMoyaRxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A98F9F2445EF5F00C1DD2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A98FA12445EF5F00C1DD2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18A98FA32445EF5F00C1DD2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A98FA62445EF5F00C1DD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A98FA82445EF6000C1DD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A98FAB2445EF6000C1DD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A98FAD2445EF6000C1DD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A98FB22445EF6000C1DD2D /* KMoyaRxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMoyaRxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A98FB62445EF6000C1DD2D /* KMoyaRxDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMoyaRxDemoTests.swift; sourceTree = "<group>"; };
+		18A98FB82445EF6000C1DD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A98FBD2445EF6100C1DD2D /* KMoyaRxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMoyaRxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A98FC12445EF6100C1DD2D /* KMoyaRxDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMoyaRxDemoUITests.swift; sourceTree = "<group>"; };
+		18A98FC32445EF6100C1DD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A98F992445EF5F00C1DD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A98FAF2445EF6000C1DD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A98FBA2445EF6100C1DD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A98F932445EF5F00C1DD2D = {
+			isa = PBXGroup;
+			children = (
+				18A98F9E2445EF5F00C1DD2D /* KMoyaRxDemo */,
+				18A98FB52445EF6000C1DD2D /* KMoyaRxDemoTests */,
+				18A98FC02445EF6100C1DD2D /* KMoyaRxDemoUITests */,
+				18A98F9D2445EF5F00C1DD2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A98F9D2445EF5F00C1DD2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A98F9C2445EF5F00C1DD2D /* KMoyaRxDemo.app */,
+				18A98FB22445EF6000C1DD2D /* KMoyaRxDemoTests.xctest */,
+				18A98FBD2445EF6100C1DD2D /* KMoyaRxDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A98F9E2445EF5F00C1DD2D /* KMoyaRxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18A98FCF2445EF7000C1DD2D /* api */,
+				18A98F9F2445EF5F00C1DD2D /* AppDelegate.swift */,
+				18A98FA12445EF5F00C1DD2D /* SceneDelegate.swift */,
+				18A98FA32445EF5F00C1DD2D /* ViewController.swift */,
+				18A98FA52445EF5F00C1DD2D /* Main.storyboard */,
+				18A98FA82445EF6000C1DD2D /* Assets.xcassets */,
+				18A98FAA2445EF6000C1DD2D /* LaunchScreen.storyboard */,
+				18A98FAD2445EF6000C1DD2D /* Info.plist */,
+			);
+			path = KMoyaRxDemo;
+			sourceTree = "<group>";
+		};
+		18A98FB52445EF6000C1DD2D /* KMoyaRxDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A98FB62445EF6000C1DD2D /* KMoyaRxDemoTests.swift */,
+				18A98FB82445EF6000C1DD2D /* Info.plist */,
+			);
+			path = KMoyaRxDemoTests;
+			sourceTree = "<group>";
+		};
+		18A98FC02445EF6100C1DD2D /* KMoyaRxDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A98FC12445EF6100C1DD2D /* KMoyaRxDemoUITests.swift */,
+				18A98FC32445EF6100C1DD2D /* Info.plist */,
+			);
+			path = KMoyaRxDemoUITests;
+			sourceTree = "<group>";
+		};
+		18A98FCF2445EF7000C1DD2D /* api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A98F9B2445EF5F00C1DD2D /* KMoyaRxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A98FC62445EF6100C1DD2D /* Build configuration list for PBXNativeTarget "KMoyaRxDemo" */;
+			buildPhases = (
+				18A98F982445EF5F00C1DD2D /* Sources */,
+				18A98F992445EF5F00C1DD2D /* Frameworks */,
+				18A98F9A2445EF5F00C1DD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMoyaRxDemo;
+			productName = KMoyaRxDemo;
+			productReference = 18A98F9C2445EF5F00C1DD2D /* KMoyaRxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A98FB12445EF6000C1DD2D /* KMoyaRxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A98FC92445EF6100C1DD2D /* Build configuration list for PBXNativeTarget "KMoyaRxDemoTests" */;
+			buildPhases = (
+				18A98FAE2445EF6000C1DD2D /* Sources */,
+				18A98FAF2445EF6000C1DD2D /* Frameworks */,
+				18A98FB02445EF6000C1DD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A98FB42445EF6000C1DD2D /* PBXTargetDependency */,
+			);
+			name = KMoyaRxDemoTests;
+			productName = KMoyaRxDemoTests;
+			productReference = 18A98FB22445EF6000C1DD2D /* KMoyaRxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A98FBC2445EF6100C1DD2D /* KMoyaRxDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A98FCC2445EF6100C1DD2D /* Build configuration list for PBXNativeTarget "KMoyaRxDemoUITests" */;
+			buildPhases = (
+				18A98FB92445EF6100C1DD2D /* Sources */,
+				18A98FBA2445EF6100C1DD2D /* Frameworks */,
+				18A98FBB2445EF6100C1DD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A98FBF2445EF6100C1DD2D /* PBXTargetDependency */,
+			);
+			name = KMoyaRxDemoUITests;
+			productName = KMoyaRxDemoUITests;
+			productReference = 18A98FBD2445EF6100C1DD2D /* KMoyaRxDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A98F942445EF5F00C1DD2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18A98F9B2445EF5F00C1DD2D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					18A98FB12445EF6000C1DD2D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18A98F9B2445EF5F00C1DD2D;
+					};
+					18A98FBC2445EF6100C1DD2D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18A98F9B2445EF5F00C1DD2D;
+					};
+				};
+			};
+			buildConfigurationList = 18A98F972445EF5F00C1DD2D /* Build configuration list for PBXProject "KMoyaRxDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A98F932445EF5F00C1DD2D;
+			productRefGroup = 18A98F9D2445EF5F00C1DD2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A98F9B2445EF5F00C1DD2D /* KMoyaRxDemo */,
+				18A98FB12445EF6000C1DD2D /* KMoyaRxDemoTests */,
+				18A98FBC2445EF6100C1DD2D /* KMoyaRxDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A98F9A2445EF5F00C1DD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A98FAC2445EF6000C1DD2D /* LaunchScreen.storyboard in Resources */,
+				18A98FA92445EF6000C1DD2D /* Assets.xcassets in Resources */,
+				18A98FA72445EF5F00C1DD2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A98FB02445EF6000C1DD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A98FBB2445EF6100C1DD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A98F982445EF5F00C1DD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A98FA42445EF5F00C1DD2D /* ViewController.swift in Sources */,
+				18A98FA02445EF5F00C1DD2D /* AppDelegate.swift in Sources */,
+				18A98FA22445EF5F00C1DD2D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A98FAE2445EF6000C1DD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A98FB72445EF6000C1DD2D /* KMoyaRxDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A98FB92445EF6100C1DD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A98FC22445EF6100C1DD2D /* KMoyaRxDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A98FB42445EF6000C1DD2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A98F9B2445EF5F00C1DD2D /* KMoyaRxDemo */;
+			targetProxy = 18A98FB32445EF6000C1DD2D /* PBXContainerItemProxy */;
+		};
+		18A98FBF2445EF6100C1DD2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A98F9B2445EF5F00C1DD2D /* KMoyaRxDemo */;
+			targetProxy = 18A98FBE2445EF6100C1DD2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A98FA52445EF5F00C1DD2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A98FA62445EF5F00C1DD2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A98FAA2445EF6000C1DD2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A98FAB2445EF6000C1DD2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A98FC42445EF6100C1DD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A98FC52445EF6100C1DD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A98FC72445EF6100C1DD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = KMoyaRxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.KMoyaRxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A98FC82445EF6100C1DD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = KMoyaRxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.KMoyaRxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18A98FCA2445EF6100C1DD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = KMoyaRxDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.KMoyaRxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMoyaRxDemo.app/KMoyaRxDemo";
+			};
+			name = Debug;
+		};
+		18A98FCB2445EF6100C1DD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = KMoyaRxDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.KMoyaRxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMoyaRxDemo.app/KMoyaRxDemo";
+			};
+			name = Release;
+		};
+		18A98FCD2445EF6100C1DD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = KMoyaRxDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.KMoyaRxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMoyaRxDemo;
+			};
+			name = Debug;
+		};
+		18A98FCE2445EF6100C1DD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = KMoyaRxDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.KMoyaRxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMoyaRxDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A98F972445EF5F00C1DD2D /* Build configuration list for PBXProject "KMoyaRxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A98FC42445EF6100C1DD2D /* Debug */,
+				18A98FC52445EF6100C1DD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A98FC62445EF6100C1DD2D /* Build configuration list for PBXNativeTarget "KMoyaRxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A98FC72445EF6100C1DD2D /* Debug */,
+				18A98FC82445EF6100C1DD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A98FC92445EF6100C1DD2D /* Build configuration list for PBXNativeTarget "KMoyaRxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A98FCA2445EF6100C1DD2D /* Debug */,
+				18A98FCB2445EF6100C1DD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A98FCC2445EF6100C1DD2D /* Build configuration list for PBXNativeTarget "KMoyaRxDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A98FCD2445EF6100C1DD2D /* Debug */,
+				18A98FCE2445EF6100C1DD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A98F942445EF5F00C1DD2D /* Project object */;
+}
